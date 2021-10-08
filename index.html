@@ -19,13 +19,51 @@
     </header>
 
     <div class="container">
-        <form action="" method="" class="new_form">
-            <input type="text" value="" placeholder="Please insert your username">
-            <input class="input2" type="text" value="" placeholder="Please insert your Password">
-            <button class="pass-button">Show Passwords</button>
+        <form action="" method="" class="new_form" onsubmit="return false">
+            <input type="password" value="" placeholder="Please insert your Password" class="checkvalue1" minlength="10">
+            <input class="input2 checkvalue2"  type="password" value="" placeholder="Please insert your Password" minlength="10">
+            <button class="pass-button show-button "  >Show Passwords</button>
+            <button>hide</button>
+            
+            
+
+            <br>
+            <br>
+
+           
+                
 
         </form>
+
+        <form action="" class="old-form">
+
+            
+            <label for="equal"> Pasword are equal</label>
+            <input type="checkbox" class="check">
+            <br> <br>
+            <label for="lower case"> Lower Case Letters</label>
+            <input type="checkbox" class="check">
+
+            <br><br>
+            <label for="upper case"> Upper Case Letters</label>
+            <input type="checkbox" class="check">          
+            <br> <br>
+            <label for="numbers"> Contains Numbers</label>
+            <input type="checkbox" class="check">
+            <br><br>
+            <label for="char"> At least 10 characters long</label>
+            <input type="checkbox" class="check">
+            
+           
+            
+        </form>
+
+       
     </div>
+
+   
+
+    <script src="main.js"></script>
     
 </body>
 </html>
