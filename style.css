@@ -1,0 +1,77 @@
+*,
+*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+body{
+    background-color: lightsalmon;
+    margin: 0 auto;
+    
+}
+
+.text_header{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 4px black;
+    
+
+}
+
+.new_form{
+    display: block;
+    flex-direction: row;
+
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.old-form{
+    display: block;
+    
+}
+
+
+
+input, button{
+    width: 100px;
+    border: 1px solid black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 2px;
+    
+}
+
+.check{
+    float: right;
+}
+
+.input2{
+    display: block;
+    margin-top: 20px;
+    
+    
+}
+
+.pass-button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
